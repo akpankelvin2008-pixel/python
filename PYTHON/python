@@ -1,0 +1,136 @@
+name ="kelvin"
+num = 25
+is_name=True
+print(type(name))
+print(type(num))
+print(type(is_name))
+
+    
+people = [
+    {
+        "name": "Alice",
+        "age": 25,
+        "height": 5.6,
+        "is_student": True,
+        "hobbies": ["Reading", "Swimming"]
+    },
+   
+    {
+        "name":"Bob"
+        "age": 30,
+        "height": 7.9,
+        "is_student": False,
+        "hobbies": ["Gaming", "Cycling"]
+    }
+]
+
+# Display the values
+for person in people:
+    print("Name:", person["name"])
+    print("Age:", person["age"])
+    print("Height:", person["height"])
+    print("Student:", person["is_student"])
+    print("Hobbies:", person["hobbies"])
+    print("-" * 30)
+    a = 10
+b = 3
+
+# Perform arithmetic operations
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Modulus:", a % b)
+print("Exponentiation:", a ** b)
+# Create two integer variables
+num1 = 12
+num2 = 5
+
+# Display comparisons with explanations
+print("num1 == num2 :", num1 == num2, "- Checks if num1 is equal to num2")
+print("num1 != num2 :", num1 != num2, "- Checks if num1 is not equal to num2")
+print("num1 > num2  :", num1 > num2, "- Checks if num1 is greater than num2")
+print("num1 < num2  :", num1 < num2, "- Checks if num1 is less than num2")
+print("num1 >= num2 :", num1 >= num2, "- Checks if num1 is greater than or equal to num2")
+print("num1 <= num2 :", num1 <= num2, "- Checks if num1 is less than or equal to num2")
+# Create two boolean variables
+is_logged_in = True
+is_admin = False
+
+# Display the values
+print("is_logged_in:", is_logged_in)
+print("is_admin:", is_admin)
+
+is_logged_in = True
+is_admin = False
+
+# Demonstrate logical operators
+print("AND Operator:")
+print("is_logged_in and is_admin =", is_logged_in and is_admin)
+print("- Returns True only if both values are True\n")
+
+print("OR Operator:")
+print("is_logged_in or is_admin =", is_logged_in or is_admin)
+print("- Returns True if at least one value is True\n")
+
+print("NOT Operator:")
+print("not is_logged_in =", not is_logged_in)
+print("not is_admin =", not is_admin)
+print("- Reverses the boolean value (True becomes False, False becomes True)")
+
+is_logged_in = True
+is_admin = False
+
+# AND operator
+print("AND Operation:")
+print("is_logged_in and is_admin =", is_logged_in and is_admin)
+print("Description: Returns True only when both is_logged_in and is_admin are True.\n")
+
+# OR operator
+print("OR Operation:")
+print("is_logged_in or is_admin =", is_logged_in or is_admin)
+print("Description: Returns True when at least one of the variables is True.\n")
+
+# NOT operator
+print("NOT Operation:")
+print("not is_logged_in =", not is_logged_in)
+print("Description: Reverses the value of is_logged_in (True becomes False).\n")
+
+print("not is_admin =", not is_admin)
+print("Description: Reverses the value of is_admin (False becomes True).")
+
+# Ask the user to enter a score
+score = int(input("Enter your score (0-100): "))
+# Classify the score using if-elif-else
+if 90 <= score <= 100:
+    print("Grade Classification: Excellent")
+elif 70 <= score <= 89:
+    print("Grade Classification: Good")
+elif 50 <= score <= 69:
+    print("Grade Classification: Average")
+elif 0 <= score <= 49:
+    print("Grade Classification: Fail")
+else:
+    print("Invalid score! Please enter a value between 0 and 100.")
+    
+    print("Even numbers from 1 to 20:")
+
+for number in range(1, 21):
+    if number % 2 == 0:  # Check if the number is even
+        print(number)
+
+# Using a while loop
+print("\nCounter using a while loop:")
+
+counter = 5  # Starting value
+
+while counter <= 10:
+    print(counter)
+    counter += 1 # Increment the counter by 1
+    counter = 5
+
+# Use a while loop to decrement the counter until it reaches 0
+while counter >= 0:
+    print("Counter value:", counter)
+    counter -= 1 # Decrement the counter by 1
